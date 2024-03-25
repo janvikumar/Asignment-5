@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banner</title>
+</head>  
+<body>
+<svg width="100%" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <rect width="50%" height="50%" fill="pink" />
+    <circle cx="59" cy="50" r="45" fill="green" />
+    <polygon points="0,80 60,40 60,90 100,0" />
+  </svg>
+
+<nav class="menu">
+    <ul>
+      <li><a href="https://www.youtube.com/">Home</a></li>
+      <li><a href="https://github.com/janvikumar/Asignment-5.git">Page Two</a></li>
+      <li><a href="https://github.com/janvikumar/Asignment-5.git">Page Three</a></li>
+    </ul>
+  </nav>
+<h1>Assignment 5</h1>
+
+  <h2 class="css-question">How to Apply CSS to HTML</h2>
+   <p class="css-question">
+        To include an external CSS file in an HTML file, you would use the <link> element with the href attribute. Example:
+    <code>&lt;link rel="stylesheet" href="styles.css" /&gt;</code>
+  </p>
+
+<h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+  <p class="js-question">
+      To link to an external JavaScript file, you would use the <script> element with the src attribute. Exaample: <code><script src="path/to/my/script.js"></script></code>
+      By using <script> element with the src attribute, you can also write JavaScript code within an html file. Example <code<script>
+  window.addEventListener("load", () => {
+    console.log("This function is executed once the page is fully loaded");
+  });
+</script></code>
+
+  </p>
+</body>
+</html>
